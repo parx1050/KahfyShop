@@ -28,10 +28,10 @@ One challenge that I faced was dealing with Spring Security for the general memb
 ### Login
 ![Login](https://github.com/parx1050/KahfyShop/blob/91a2eadc8ceed4762c897f7897c5e6c47d7ae0a5/wireframes/Kahfy%20-%20Login.png) <br/><br/>
 ### Sign Up
-![SignUp](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) <br/><br/>
+![SignUp](https://github.com/parx1050/KahfyShop/blob/75dbb6238763f7589bb0c09eb6ffb38a41e9f2d4/wireframes/Kahfy%20-%20SignUp.png) <br/><br/>
 ### Members (Admin Access Only)
-![Members (Admin Access Only)](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) <br/><br/>
+![Members (Admin Access Only)](https://github.com/parx1050/KahfyShop/blob/75dbb6238763f7589bb0c09eb6ffb38a41e9f2d4/wireframes/Kahfy%20-%20Members%20(Admin%20Access%20Only).png) <br/><br/>
 ### Products
-![Products](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) <br/><br/>
+![Products](https://github.com/parx1050/KahfyShop/blob/75dbb6238763f7589bb0c09eb6ffb38a41e9f2d4/wireframes/Kahfy%20-%20Products.png) <br/><br/>
 ### Shopping Cart
-![Shopping Cart](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) <br/><br/>
+![Shopping Cart](https://github.com/parx1050/KahfyShop/blob/75dbb6238763f7589bb0c09eb6ffb38a41e9f2d4/wireframes/Kahfy%20-%20Shopping%20Cart.png) <br/><br/>
