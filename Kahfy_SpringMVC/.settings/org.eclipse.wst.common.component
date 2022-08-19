@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Kahfy_SpringMVC">
+        <property name="context-root" value="Kahfy_SpringMVC"/>
+        <property name="java-output-path" value="/Kahfy_SpringMVC/build/classes"/>
+    </wb-module>
+</project-modules>
