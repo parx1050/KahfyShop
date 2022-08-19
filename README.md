@@ -21,3 +21,11 @@ As a coffee shop member concerned about the details about how my hard-earned rew
 
 ## Challenges
 One challenge that I faced was dealing with Spring Security for the general member. I was able to configure Spring Security to validate inputted emails and passwords with fields in the database, but with time constraints, focused all of my Spring Security setup on a hard-coded admin login, leaving more time to deal with other aspects of my project. With more time, I believe I could figure out the technicalities of assigning roles and authorization for specific kinds of users to different parts of the site.
+
+## Wireframes
+![Home](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Login](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![SignUp](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Members (Admin Access Only)](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Products](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Shopping Cart](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
