@@ -11,5 +11,3 @@ public class KahfyThymeleafApplication {
 	}
 
 }
-
-// test commit
