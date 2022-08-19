@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Kahfy_Shop.iml" filepath="$PROJECT_DIR$/.idea/Kahfy_Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kahfy_Thymeleaf/Kahfy_Thymeleaf.iml" filepath="$PROJECT_DIR$/Kahfy_Thymeleaf/Kahfy_Thymeleaf.iml" />
+    </modules>
+  </component>
+</project>
