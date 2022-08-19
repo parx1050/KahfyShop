@@ -1,0 +1,123 @@
+#header {
+	display: flex;
+	justify-content: center;
+	height: 60px;
+}
+
+body {
+	font-family: 'DM Serif Display', serif;
+	background: url("https://i.postimg.cc/Y2Rhb0DT/Kahfy-Shop-Background.jpg");
+    background-size: 100%;
+	color: #fa4238;
+}
+
+#logo-link {
+	height: 40px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+	margin-top: auto;
+	margin-bottom: auto;
+	align-items: center;
+}
+
+.nav-item {
+	margin: 5px;
+}
+
+.nav {
+	--bs-nav-link-color: #fa4238;
+	--bs-nav-link-hover-color: #ae2c25;
+	font-size: 2rem;
+}
+
+#hero {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 390px;
+}
+
+#hero-titleless {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+#home-login-buttons {
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+}
+
+h1 {
+	font-size: 10rem;
+	width: 900px;
+	margin-top: 150px;
+	display: block;
+}
+
+h3 {
+	font-size: 3rem;
+	margin-top: 10px;
+	width: 400px;
+}
+
+.home-buttons {
+	padding: 20px;
+	margin: 10px;
+	background-color: #FdF8F1;
+	color: #f1b772;
+	box-shadow: 0px 10px 40px #cbcdcd;
+	border: 3px solid #f1b772;
+	width: 280px;
+	border-radius: 4px;
+}
+
+.home-buttons:hover {
+	background-color: #f1b772;
+	color: #FDF8F1;
+}
+
+.home-buttons:active {
+	transform: scale(0.98);
+}
+
+.dropdown-item {
+	font-size: 1.5rem;
+}
+
+#cart-icon {
+	height: 20px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.alert-hidden,
+#hiddenloggedOutVariable {
+	display: none;
+}
+
+/* fbbe63 */

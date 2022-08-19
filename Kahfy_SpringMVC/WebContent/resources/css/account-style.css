@@ -1,0 +1,36 @@
+#title {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#productTitle {
+	margin-top: 30px;
+}
+
+#container {
+	width: 500px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+}
+
+.accountRow {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.accountLabel {
+	width: 200px;
+}
+
+.accountLabel, .accountDetails {
+	font-size: 3rem;
+}
