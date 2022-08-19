@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Save Member</title>
+</head>
+
+<body>
+
+	<div class="container">
+	
+		<h3>Member Directory</h3>
+		<hr>
+		
+		<p class="h4 mb-4">Save Member</p>
+	
+		<form action="#" th:action="@{/admin/saveMember}"
+						 th:object="${member}" method="POST">
+		
+			<!-- Add hidden form field to handle update -->
+			<input type="hidden" th:field="*{memberId}" />
+			
+			<input type="text" th:field="*{name}"
+					class="form-control mb-4 col-4" placeholder="Name">
+
+			<input type="text" th:field="*{email}"
+					class="form-control mb-4 col-4" placeholder="Email">
+
+			<input type="text" th:field="*{rewards}"
+					class="form-control mb-4 col-4" placeholder="Rewards">
+				
+			<button type="submit" class="btn btn-info col-2">Save</button>
+			
+			<!-- Add hidden form field to handle update -->
+			<input type="hidden" th:field="*{password}" />
+						
+		</form>
+	
+		<hr>
+		<a th:href="@{/admin/list-items}">Back to Admin Dashboard</a>
+		
+	</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

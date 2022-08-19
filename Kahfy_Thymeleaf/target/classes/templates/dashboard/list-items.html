@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Kahfy - Admin</title>
+</head>
+
+<body>
+
+<a th:href="@{/logout}"
+		class="btn btn-primary btn-sm mb-3"
+		style="margin-left: 20px; margin-top: 20px;">
+		Log Out
+	</a>
+
+<h1 style="text-align: center">Admin Dashboard</h1>
+
+<div class="container">
+
+	<h3>Member Directory</h3>
+	<hr>
+	
+	<!-- Add a button -->
+	<a th:href="@{/admin/showFormForAddMember}"
+		class="btn btn-primary btn-sm mb-3">
+		Add Member
+	</a>
+	
+	
+	<table class="table table-bordered table-striped">
+		<thead class="thead-dark">
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Rewards</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr th:each="tempMember : ${members}">
+			
+				<td th:text="${tempMember.memberId}" />
+				<td th:text="${tempMember.name}" />	
+				<td th:text="${tempMember.email}" />	
+				<td th:text="${tempMember.rewards}" />	
+				
+				<!-- Add update button/link -->
+				<td style="display: flex; justify-content: center;;">
+					<a th:href="@{/admin/showFormForUpdateMember(memberId=${tempMember.memberId})}"
+					   class="btn btn-info btn-sm">
+						Update
+					</a>
+					<div style="width: 20px;"></div>
+					<a th:href="@{/admin/deleteMember(memberId=${tempMember.memberId})}"
+					   class="btn btn-info btn-sm">
+						Delete
+					</a>
+				</td>
+				
+				
+			</tr>
+		</tbody>		
+	</table>
+	
+</div>
+
+<div class="container">
+
+	<h3>Product Inventory</h3>
+	<hr>
+	
+	<!-- Add a button -->
+	<a th:href="@{/admin/showFormForAddProduct}"
+		class="btn btn-primary btn-sm mb-3">
+		Add Product
+	</a>
+	
+	
+	<table class="table table-bordered table-striped">
+		<thead class="thead-dark">
+			<tr>
+				<th>Product Id</th>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+				<th>Rewards Worth</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr th:each="tempProduct : ${products}">
+			
+				<td th:text="${tempProduct.productId}" />	
+				<td th:text="${tempProduct.name}" />	
+				<td th:text="${tempProduct.description}" />	
+				<td th:text="${tempProduct.price}" />	
+				<td th:text="${tempProduct.rewardsWorth}" />	
+				
+				<!-- Add update button/link -->
+				<td style="display: flex; justify-content: center;">
+					<a th:href="@{/admin/showFormForUpdateProduct(productId=${tempProduct.productId})}"
+					   class="btn btn-info btn-sm">
+						Update
+					</a>
+					<div style="width: 20px;"></div>
+					<a th:href="@{/admin/deleteProduct(productId=${tempProduct.productId})}"
+					   class="btn btn-info btn-sm">
+						Delete
+					</a>
+				</td>
+				
+				
+			</tr>
+		</tbody>		
+	</table>
+	
+</div>
+	
+</body>
+</html>
+
+
+
